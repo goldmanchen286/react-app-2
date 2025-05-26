@@ -1,9 +1,7 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
-import { 
-  z, 
-  ZodIssueOptionalMessage
-} from 'zod';
+import { z } from 'zod';
+import { ZodIssueOptionalMessage } from '../utils/zodCompatibility';
 import { 
   createCustomErrorMap, 
   demonstrateAddQuestionMarks
