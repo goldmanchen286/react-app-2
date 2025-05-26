@@ -2,7 +2,7 @@ import {
   ZodIssueOptionalMessage, 
   defaultErrorMap,
   objectUtil
-} from 'zod';
+} from './zodCompatibility';
 
 // Utility function using the removed defaultErrorMap
 export const createCustomErrorMap = (customMessages: Record<string, string> = {}) => {
